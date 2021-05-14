@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					E24828BB1EF6EE4100203A63 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A28ARP647Y;
 						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
@@ -281,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A28ARP647Y;
 				INFOPLIST_FILE = Nabeatsu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -295,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A28ARP647Y;
 				INFOPLIST_FILE = Nabeatsu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
