@@ -31,14 +31,14 @@ class ViewController: UIViewController {
         if number % 3 == 0{
             return true //アホになる
         }
-        
+    }
+    
     func isInu() -> Bool {
             
         if number % 5 == 0{
-            
             return false //イヌになる
         }
-        }
+    }
 //        // 問題2: 1の位が3かどうか調べる
 //
 //        if number % 10 == 3{
@@ -62,20 +62,15 @@ class ViewController: UIViewController {
         }
         
         // 問題4をやるときは問題3と問題2の答えを消してから書こう
-
-        
-        return false
-    }
+    
     @IBAction func plusButton(){
         number = number + 1
         countLabel.text = String(number)
         
         if isAho() == true {
-            
             faceLabel.text = "ﾍ(ﾟ∀ﾟﾍ)ｱﾋｬ"
             
         } else if isInu() == false {
-
             faceLabel.text = "ﾍU^ｪ^U ｵﾃｯ!"
         }else {
             
